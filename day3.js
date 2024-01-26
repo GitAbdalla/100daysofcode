@@ -23,6 +23,7 @@ function fuunc_name(){
 }
 fuunc_name();
 
+//*********************************//
 
 {
     const x=13; // const in block scope
@@ -34,7 +35,7 @@ function x_name(){
     console.log(x); // cant be called in function scope -> error
 }
 x_name();
-
+//*********************************//
 function y_name(){
     const y=14;
     console.log(y);    // only call in function scope
