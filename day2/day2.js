@@ -6,12 +6,12 @@ a=b;
 b=temp;
 console.log(a);
 console.log(b);
-// switch from F to C //
+// switch from F to C 
 var F = 40;
 var C;
 C= (F-32) * 5/9;
 console.log(C);
-// if statement //
+// if statement 
 var namme="ahmed";
 var id= 10;
 var age=25;
