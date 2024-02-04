@@ -4,4 +4,8 @@
 3-Numbers – Coercion – basics
 */
 
-let 
+let x=null;
+let y=undefined;
+
+console.log( x==y);  // true
+console.log( x===y); //false
