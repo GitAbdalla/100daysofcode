@@ -1,0 +1,19 @@
+{
+  "name": "ourmath",
+  "version": "1.0.0",
+  "description": "few math functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitAbdalla/100daysofcode.git#main"
+  },
+  "author": "abdalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitAbdalla/100daysofcode/issues"
+  },
+  "homepage": "https://github.com/GitAbdalla/100daysofcode/tree/main#readme"
+}
