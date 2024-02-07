@@ -22,3 +22,24 @@ exports.uniontwosets=function uniontwosets(first_set,second_set){
     }
     return new_set;
 }
+
+exports.intersection=function intersection(first_set, second_set){
+    let new_set=[];
+    for(let i=0; i<first_set.length; i++){
+        if (second_set.includes(first_set[i])){
+            new_set.push(first_set[i]);
+        }
+    }
+    return new_set;
+
+}
+
+exports.max=function maximum(...nums){
+    let max= Number.NEGATIVE_INFINITY;
+    for(let i=0; i<nums.length; i++){
+        if(nums[i] > max){
+            max = nums[i];
+        }
+    }
+    return max;
+}
