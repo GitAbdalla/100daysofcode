@@ -1,5 +1,5 @@
 {
-  "name": "our_math",
+  "name": "@abdalla.hassan/our_math",
   "version": "1.0.0",
   "description": "few math functions",
   "main": "index.js",
