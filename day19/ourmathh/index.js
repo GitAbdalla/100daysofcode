@@ -34,7 +34,7 @@ export function intersection(first_set, second_set){
 
 }
 
-export function maximum(...nums){
+export function max(...nums){
     let max= Number.NEGATIVE_INFINITY;
     for(let i=0; i<nums.length; i++){
         if(nums[i] > max){
