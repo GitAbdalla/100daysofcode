@@ -1,0 +1,5 @@
+now we will turn our module "ourmath" from CJS to ECM -> ECMAScript module
+
+we have many ways 
+1-make the types of files mjs 
+2-make the type of json file to "module"
