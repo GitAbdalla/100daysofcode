@@ -1,0 +1,7 @@
+ learned in db :
+ Create, Read, Update, Delete.
+ INSERT INTO. CSVs. .import. 
+ DELETE FROM. Foreign Key Constraints. 
+ UPDATE. 
+ Triggers. 
+ Soft Deletions.
