@@ -1,0 +1,10 @@
+Views.
+ CREATE VIEW.
+ Views for Simplifying.
+ Views for Aggregating.
+ Temporary Views.
+ CREATE TEMPORARY VIEW.
+ Common Table Expressions.
+ Views for Partitioning.
+ Views for Securing. 
+ Soft Deletions.
