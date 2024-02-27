@@ -1,5 +1,5 @@
 /* implementation of binary search
-Big O notations of it = O(log n)
+Time complexity = O(log n)
 */
 function bainary_search(list, item) {
   let low = 0;
