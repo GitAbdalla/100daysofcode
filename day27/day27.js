@@ -1,24 +1,29 @@
 /* Selection Sort
    Time Complexity: O(n^2)
 */
-function findsmallest(arr){
-    let smallest = arr[0] ;
-    let smallest_index = 0;
-    for(let i=0 ; i<arr.length(); i++){
-        if (arr[i] < smallest){
-            smallest=arr[i];
-            smallest_index=i;
+function findSmallest(arr) {
+    let smallest = arr[0];
+    let smallestIndex = 0;
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < smallest) {
+            smallest = arr[i];
+            smallestIndex = i;
         }
     }
-    return smallest_index;
-}
-function selectionSort(arr){
-    newArr=[]
-    for(let i = 0; i< arr.length(); i++){
-        smallest=findsmallest(arr);
-        newArr.append(arr.pop(smallest))
- return newArr
 
-    }
+    return smallestIndex;
 }
-console.log( selectionSort[5, 3, 6, 2, 10])
+
+function selectionSort(arr) {
+    let newArr = [];
+
+    while (arr.length > 0) {
+        let smallestIndex = findSmallest(arr);
+        newArr.push(arr.splice(smallestIndex, 1)[0]);
+    }
+
+    return newArr;
+}
+
+console.log(selectionSort([5, 3, 6, 2, 10]));
