@@ -1,0 +1,13 @@
+Studying:
+Scalability.
+MySQL: Integers, Strings, Dates, Times, Real Numbers, Floating-Point Imprecision, Fixed Precision, Altering Tables.
+Stored Procedures.
+PostgreSQL.
+Vertical Scaling.
+Horizontal Scaling.
+Replication.
+Read Replicas.
+Sharding. 
+Access Controls: GRANT, REVOKE.
+SQL Injection Attacks.
+Prepared Statements.

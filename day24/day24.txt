@@ -1,3 +1,4 @@
+Studying: 
 Indexes.
 CREATE INDEX.
 EXPLAIN QUERY PLAN.
