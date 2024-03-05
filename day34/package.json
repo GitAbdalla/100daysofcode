@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "validator": "^13.11.0"
-  }
+  },
+  "name": "day34",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
