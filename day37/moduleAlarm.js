@@ -9,5 +9,13 @@ class Alarm extends evenEmitter{
             this.emit("alarmFired")
         }, intervalInSec *1000 );
     }
+    snooze(intervalInSec){
+        this.snoozeInterval = setInterval(() => {
+            this.emit("snoozeAlarmFired")
+        }, intervalInSec * 1000);
+    }
+    stopsnooze(){
+        clearInterval(this.snoozeInterval)
+    }
 }
 module.exports = Alarm
