@@ -7,7 +7,7 @@ class Alarm extends evenEmitter{
 
         setTimeout(() => {
             this.emit("alarmFired")
-        }, intervalInSec *1000);
+        }, intervalInSec *1000 );
     }
 }
 module.exports = Alarm
