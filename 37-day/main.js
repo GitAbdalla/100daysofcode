@@ -10,5 +10,5 @@ alarm1.on("alarmFired", () => {
 
 alarm1.on("snoozeAlarmFired", () => {
     console.log("Please wake...")
-    alarm1.stopSnooze()
+    alarm1.stopSnooze() 
 })
