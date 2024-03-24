@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const tasksRoutes = require('./routes/taskRoutes')
+const tasksRoutes = require('./routes/tasks')
 
 const app = express()
 const port = 3001
@@ -9,7 +9,7 @@ const port = 3001
 app.use(express.json())
 
 // DB Connection
-mongoose.connect('mongodb://admin:admin@localhost:27017/todo?authSource=admin')
+mongoose.connect('mongodb://localhost:27017/task/todo')
 
 const db = mongoose.connection;
 
